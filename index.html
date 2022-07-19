@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- lib -->
+
+<!-- css -->
+<link rel="stylesheet" href="css/style.css">
+
+
+<head>
+   <title>MyProject</title>
+</head>
+
+<body>
+   
+
+   <button class="btn test" data-anim-btn data-popup-signin-btn><span>Sign In</span></button>
+   <button class="btn test" data-anim-btn data-popup-login-btn><span>Log In</span></button>
+
+   <div class="popup-signin" data-popup-signin>
+      <div class="popup-signin__container">
+         <div class="popup-signin__main-body" data-popup-signin-main-body>
+            <div class="popup-signin__header">
+               <div class="popup-signin__title">Sign In</div>
+               <div class="popup-signin__cross" data-cross><img src="img/cross.png" alt=""></div>
+            </div>
+            <div class="popup-signin__body">
+               <button class="popup-signin__google"><span>Log in with Google</span></button>
+               <div class="popup-signin__or">or</div>
+               <form action="">
+                  <input class="popup-signin__input" type="text" placeholder="signin">
+                  <input class="popup-signin__input" type="text" placeholder="password">
+                  <input class="popup-signin__input" type="text" placeholder="password">
+               </form>
+               <a href="#" class="popup-signin__forgot">Forgot password?</a>
+               <button class="popup-signin__btn btn" data-anim-btn><span>Sign Up</span></button>
+
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="popup-login" data-popup-login>
+      <div class="popup-login__container">
+         <div class="popup-login__main-body" data-popup-login-main-body>
+            <div class="popup-login__header">
+               <div class="popup-login__title">Log In</div>
+               <div class="popup-login__cross" data-cross><img src="img/cross.png" alt=""></div>
+            </div>
+            <div class="popup-login__body">
+               <button class="popup-login__google"><span>Log in with Google</span></button>
+               <div class="popup-login__or">or</div>
+               <form action="">
+                  <input class="popup-login__input" type="text" placeholder="login">
+                  <input class="popup-login__input" type="text" placeholder="password">
+               </form>
+               <a href="#" class="popup-login__forgot">Forgot password?</a>
+               <button class="popup-login__btn btn" data-anim-btn><span>Sign Up</span></button>
+
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+
+   <!-- lib -->
+
+   <!-- cfg -->
+
+   <!-- index -->
+   <script src="js/index.js"></script>
+
+</body>
+
+</html>
